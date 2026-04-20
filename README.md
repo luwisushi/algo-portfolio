@@ -8,6 +8,8 @@ Portfolio website for **Louise Moreno** built with **Java + HTML + CSS + JavaScr
   - Activities
   - Assignments
   - Projects
+  - Quiz
+  - Exams
 - Separate page for each category
 - "Go to Home" button on each category page
 - Form fields on each category page:
@@ -24,6 +26,8 @@ Portfolio website for **Louise Moreno** built with **Java + HTML + CSS + JavaScr
 - `src/main/resources/static/activities.html` - Activities page
 - `src/main/resources/static/assignments.html` - Assignments page
 - `src/main/resources/static/projects.html` - Projects page
+- `src/main/resources/static/quiz.html` - Quiz page
+- `src/main/resources/static/exams.html` - Exams page
 - `src/main/resources/static/styles.css` - Shared styling
 - `src/main/resources/static/app.js` - Shared category page logic
 

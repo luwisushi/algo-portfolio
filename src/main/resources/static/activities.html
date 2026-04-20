@@ -18,11 +18,14 @@
         </header>
 
         <section class="entries-section">
-            <h2>Saved Activities</h2>
+            <div class="entries-header">
+                <h2>Saved Activities</h2>
+                <button id="toggle-form-button" class="add-entry-toggle" type="button" aria-expanded="false" aria-controls="entry-section">Add Entry</button>
+            </div>
             <div id="entries-list" class="entries-list"></div>
         </section>
 
-        <section class="entry-section">
+        <section id="entry-section" class="entry-section" hidden>
             <form id="entry-form" class="entry-form">
                 <label>
                     Title
