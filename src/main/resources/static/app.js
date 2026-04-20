@@ -151,6 +151,7 @@
         entries.forEach((entry, index) => {
             const card = document.createElement("article");
             card.className = "entry-card";
+            card.style.setProperty("--entry-delay", `${Math.min(index, 8) * 70}ms`);
 
             const title = document.createElement("h3");
             title.textContent = entry.title;
