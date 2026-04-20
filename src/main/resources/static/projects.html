@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Louise Moreno</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body data-category="projects">
+    <main class="page-wrap">
+        <header class="subpage-header">
+            <div>
+                <p class="hero-tag">Algorithm and Complexities</p>
+                <h1>Projects</h1>
+                <p class="hero-text">Add and manage project entries for this subject.</p>
+            </div>
+            <a class="home-button" href="index.html">Go to Home</a>
+        </header>
+
+        <section class="entry-section">
+            <form id="entry-form" class="entry-form">
+                <label>
+                    Title
+                    <input id="title" name="title" type="text" placeholder="Enter project title" required>
+                </label>
+
+                <label>
+                    Date
+                    <input id="date" name="date" type="date" required>
+                </label>
+
+                <label>
+                    Description
+                    <textarea id="description" name="description" rows="4" placeholder="Write a short description" required></textarea>
+                </label>
+
+                <label>
+                    Import Image
+                    <input id="image" name="image" type="file" accept="image/*">
+                </label>
+
+                <div class="form-actions">
+                    <button id="submit-button" type="submit">Add Entry</button>
+                    <button id="cancel-edit" class="cancel-button" type="button" hidden>Cancel Edit</button>
+                </div>
+            </form>
+        </section>
+
+        <section class="entries-section">
+            <h2>Saved Projects</h2>
+            <div id="entries-list" class="entries-list"></div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>

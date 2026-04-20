@@ -1,0 +1,11 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build Algorithm Portfolio",
+			"type": "shell",
+			"command": "& 'C:\\Program Files\\Java\\jdk-21\\bin\\javac.exe' -d target/classes src/main/java/com/louisemoreno/portfolio/Main.java",
+			"group": "build"
+		}
+	]
+}
